@@ -1,0 +1,13 @@
+{
+  "name": "pixel-battle",
+  "version": "1.0.0",
+  "description": "Live multiplayer Pixel Battle for CSSD 315 Computer Graphics",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "loadtest": "node loadtest.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
